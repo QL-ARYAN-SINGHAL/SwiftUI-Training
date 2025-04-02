@@ -29,9 +29,33 @@
 		BF4C40282D9D0EA600018387 /* MyRegistrationActivity-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyRegistrationActivity-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BF4C40482D9D10E500018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "MyRegistrationActivity-SwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/RegistrationData.json,
+			);
+			target = BF4C400D2D9D0EA500018387 /* MyRegistrationActivity-SwiftUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		BF4C40492D9D10E500018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "Compile Sources" phase from "MyRegistrationActivity-SwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = BF4C400A2D9D0EA500018387 /* Sources */;
+			membershipExceptions = (
+				Resources/RegistrationData.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BF4C40102D9D0EA500018387 /* MyRegistrationActivity-SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BF4C40482D9D10E500018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "MyRegistrationActivity-SwiftUI" target */,
+				BF4C40492D9D10E500018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "Compile Sources" phase from "MyRegistrationActivity-SwiftUI" target */,
+			);
 			path = "MyRegistrationActivity-SwiftUI";
 			sourceTree = "<group>";
 		};

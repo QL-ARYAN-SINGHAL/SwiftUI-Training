@@ -30,12 +30,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BF4C40482D9D10E500018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "MyRegistrationActivity-SwiftUI" target */ = {
+		BF4C40B42D9D47C400018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "MyRegistrationActivity-SwiftUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/RegistrationData.json,
 			);
-			target = BF4C400D2D9D0EA500018387 /* MyRegistrationActivity-SwiftUI */;
+			target = BF4C401D2D9D0EA600018387 /* MyRegistrationActivity-SwiftUITests */;
+		};
+		BF4C40B52D9D47C400018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "MyRegistrationActivity-SwiftUIUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/RegistrationData.json,
+			);
+			target = BF4C40272D9D0EA600018387 /* MyRegistrationActivity-SwiftUIUITests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -53,8 +60,9 @@
 		BF4C40102D9D0EA500018387 /* MyRegistrationActivity-SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BF4C40482D9D10E500018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "MyRegistrationActivity-SwiftUI" target */,
 				BF4C40492D9D10E500018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "Compile Sources" phase from "MyRegistrationActivity-SwiftUI" target */,
+				BF4C40B42D9D47C400018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "MyRegistrationActivity-SwiftUITests" target */,
+				BF4C40B52D9D47C400018387 /* Exceptions for "MyRegistrationActivity-SwiftUI" folder in "MyRegistrationActivity-SwiftUIUITests" target */,
 			);
 			path = "MyRegistrationActivity-SwiftUI";
 			sourceTree = "<group>";
